@@ -310,9 +310,10 @@
 }
 
 /* five */
-.five-p{
+.five-p {
     margin-bottom: 120px;
 }
+
 #five-t-1 {
     color: #070211;
     font-family: Inter;
@@ -337,3 +338,44 @@
 }
 
 /* six */
+
+.six {
+    grid-template-columns: repeat(3, 1fr);
+
+    margin-left: 120px;
+}
+
+.six img {
+    padding: 20px;
+}
+
+
+
+/* footer */
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
